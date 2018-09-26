@@ -1,0 +1,15 @@
+use_synth :fm
+2.times do
+play 60, release:0.5, amp: 4, pan: -1
+sleep 0.5
+play 67, release: 0.3, amp: 2, pan :1
+sleep 0.5
+End
+use_synth : saw
+play 38, release: 0.1, amp: 3
+sleep 0.25
+play 50, pan : -1
+sleep 0.25
+use_synth :prophet
+play 57, amp: 4, release:0.3
+sleep 0.25
